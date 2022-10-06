@@ -8,7 +8,7 @@ const Header = () => {
   const {darkMode, setDarkMode, showHelp,setShowHelp} = useMain()
   
   return (
-    <div className={`max-w-xl mx-auto flex justify-between items-center py-4 px-8 shadow-xl rounded-xl backdrop-blur-sm`} >
+    <div className={`w-full max-w-xl mx-auto flex justify-between items-center py-4 px-8 shadow-xl rounded-xl backdrop-blur-sm`} >
       
       <div onClick={()=> {setDarkMode(!darkMode); darkModeFn(!darkMode);}}>
         { darkMode ?

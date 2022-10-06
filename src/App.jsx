@@ -16,7 +16,7 @@ function App() {
   return (
 
       <MainProvider>
-        <div className=' h-screen md:h-auto '>
+        <div className=' h-screen md:h-auto flex flex-col justify-evenly'>
             <Header/>
 
             <HelpMenu/>

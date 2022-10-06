@@ -56,7 +56,7 @@ const MainProvider = ({children})=>{
   }
   
   function testWord(attempt) {
-    // console.log(JSON.(attemptWord) , JSON.stringify(word));
+    console.log(JSON.stringify(attemptWord) , JSON.stringify(word));
     if(JSON.stringify(attemptWord) === JSON.stringify(word)){
       setWin(true)
       setEndGame(true)

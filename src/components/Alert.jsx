@@ -16,7 +16,7 @@ const Alert = () => {
   }, [])
   
   return (
-    <p className={`mb-4 text-center px-2 py-1 ${(type==='error')? 'bg-red-300 text-red-700' : 'bg-green-300 text-green-700'} w-1/2 mx-auto rounded-lg mb-1`}>{message}</p>
+    <p className={`font-semibold mb-2 text-center px-2 py-1 ${(type==='error')? 'bg-red-300 text-red-700' : 'bg-green-300 text-green-700'} mx-auto rounded-lg`}>{message}</p>
   )
 }
 

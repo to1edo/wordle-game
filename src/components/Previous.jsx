@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 const Previous = () => {
 
-  const {previousAttempts} = useMain()
+  const {previousAttempts,alert} = useMain()
 
   let row = []
   let grid=[]
@@ -21,7 +21,7 @@ const Previous = () => {
 
   return (
     <>
-      <div className="mb-4 max-w-md mx-auto grid grid-cols-5 gap-3">
+      <div className={`mb-4 max-w-md mx-auto grid grid-cols-5 gap-3 ${alert.message ? '':'mt-10'}`}>
         { grid }
         {/* {console.log(previousAttempts)} */}
       </div>

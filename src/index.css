@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body{
-  }
+  overflow: hidden;
+}
 
 /*spinner */
 .spinner {
